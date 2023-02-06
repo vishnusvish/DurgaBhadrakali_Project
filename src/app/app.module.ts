@@ -12,6 +12,8 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { Section1Component } from './shared/section1/section1.component';
 import { FestivalComponent } from './pages/festival/festival.component';
+import { ActivitiesComponent } from './pages/activities/activities.component';
+import { GalleryComponent } from './pages/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { FestivalComponent } from './pages/festival/festival.component';
     ContactComponent,
     HeaderComponent,
     Section1Component,
-    FestivalComponent
+    FestivalComponent,
+    ActivitiesComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

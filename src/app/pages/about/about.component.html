@@ -1,1 +1,64 @@
-<p>about works!</p>
+<div class="container p-5 bg-light">
+    <div class="row">
+      <div class="col">
+        <div class="members ">
+            <h6>President: {{president}}</h6>
+            <h6>Treaurer : {{treaurer}}</h6>
+            <h6>Secretary:-{{secretary}}</h6>
+            <h6>Vice President:{{vicePresident1}}</h6>
+            <h6>Vice President: {{vicePresident2}}</h6>
+            <h6>Joint Scretary: {{jointScretary1}}</h6>
+
+            <h6>Joint Scretary: {{jointScretary2}}</h6>
+            <h6>Convenor:{{convenor1}}</h6>
+            <h6>Convenor:{{convenor2}}</h6>
+
+
+
+        </div>
+      </div>
+    </div>
+    <u>
+        <h3 class="text-center ">Committee Members</h3>
+    </u>
+
+    <div class="row mt-5">
+
+        <div class="col" >
+            <div *ngFor="let member of members | slice:0:5">
+            <h6>{{member}}</h6>
+            </div>
+        </div>
+        <div class="col">
+            <div *ngFor="let member of members | slice:5:10">
+                <h6>{{member}}</h6>
+            </div>
+        </div>
+
+        <div class="col">
+            <div *ngFor="let member of members | slice:10:15">
+                <h6>{{member}}</h6>
+            </div>
+        </div>
+
+    </div>
+    <div class="row mt-4">
+        <div class="col">
+            <div class="Notice">
+                <u><h4>Notice</h4></u>
+                <ul>
+                    <li> ക്ഷേത്രപരിസരം വൃത്തിയായി സൂക്ഷിക്കേണ്ടതാണ്.</li>
+                    <li> ക്ഷേത്രത്തിൽ എല്ലാ മാസവും ആയില്യപൂജയും പൗർണ്ണമി പൂജയും
+                        ഉണ്ടായിരിക്കുന്നതാണ്</li>
+                    <li> പൗർണ്ണമി പൂജയ്ക്ക് രാവിലെയും വൈകുന്നേരവും നടതുറക്കുന്നതാണ്. രാവിലെ ഹോമം
+                        ഉണ്ടായിരിക്കുന്നതാണ്.</li>
+                    <li>എല്ലാ ആടിമാസവും സ്പെഷ്യൽ അഭിഷേകം നടക്കും. എല്ലാ ചൊവ്വ, വെള്ളി, ഞായർ
+
+                        ദിവസങ്ങളിലും വൈകുന്നേരവും നടതുറക്കുന്നതാണ് </li>
+                    <li>മതപാഠ ക്ലാസ്സ് എല്ലാ ഞായറാഴ്ചയും നടക്കുന്നതാണ്.</li>
+                    <li>ക്ഷേത്ര കമ്മിറ്റിയുടെ ഇഷ്ടാനുസരണം കാര്യപരിപാടിയിൽ മാറ്റം വരുത്താവുന്നതാണ്</li>
+                    <li> വിശദ വിവരങ്ങൾക്ക് ബന്ധപ്പെടേണ്ട മൊബൈൽ നമ്പർ 9600500325</li>
+                </ul>
+
+            </div>
+  </div>
