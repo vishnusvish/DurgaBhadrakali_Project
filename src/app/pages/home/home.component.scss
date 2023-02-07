@@ -1,10 +1,32 @@
-.container-fulid{
-    background-image:url(/assets/image/temp\ \(1\).jpg);
+.container-fulid {
+    background-image: url(/assets/image/temp\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height:500px;
-    
-   
+    min-height: 500px;
+
+
 }
 
 
+
+
+@media screen and (max-width: 576px) {
+    .container-fulid {
+        background-image: url(/assets/image/mobile\ bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 500px
+      
+   
+    
+    
+  }
+
+  h3{
+    text-align: center;
+    color: yellow;
+    margin: auto;
+   
+    
+  }
+}

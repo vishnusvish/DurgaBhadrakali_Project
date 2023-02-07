@@ -7,6 +7,7 @@ import { FestivalComponent } from './pages/festival/festival.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MenuComponent } from './pages/menu/menu.component';
+import { PongalaComponent } from './pages/pongala/pongala.component';
 
 const routes: Routes = [
   {
@@ -14,6 +15,9 @@ const routes: Routes = [
   },
   {
     path:'menu', component:MenuComponent
+  },
+  {
+    path:'pongala', component:PongalaComponent
   },
   {
     path:'about', component:AboutComponent
