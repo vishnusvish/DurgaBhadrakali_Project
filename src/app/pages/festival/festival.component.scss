@@ -7,23 +7,21 @@ h1 {
 
 img {
     height: 200px;
-    width: 290px;
+    width: 286px;
 }
 
 li {
     text-align: justify;
 }
 
-
-
-
-
-
-
+button {
+    border-radius: 30px;
+    width: 110px;
+}
 
 @media screen and (max-width: 768px) {
     .card {
-        margin-left: 50px;
+        margin-right: 80px;
         position: relative;
         display: flex;
         flex-direction: column;
