@@ -1,0 +1,16 @@
+img {
+  height: 400px;
+  width: 500px;
+}
+
+button {
+  border-radius: 30px;
+  width: 110px;
+}
+
+@media screen and (max-width: 576px) {
+  img {
+    height: 250px;
+    width: 330px;
+  }
+}

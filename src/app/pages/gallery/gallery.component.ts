@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-gallery',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class GalleryComponent {
 
+  constructor(public activities:Router){}
+  ngOnInt(){}
+  getActivities(){
+    this.activities.navigate(['activies'])
+  }
 }

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-about',
@@ -24,5 +25,10 @@ export class AboutComponent {
   ]
   nOnInit(){
     this.totalLength =  this.members.length
+  }
+  constructor(public gallery:Router){}
+
+  getGallery(){
+    this.gallery.navigate(['gallery'])
   }
 }
