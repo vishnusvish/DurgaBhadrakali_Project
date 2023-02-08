@@ -16,6 +16,9 @@ export class AboutComponent {
   jointScretary2:string = "Vijayn.S";
   convenor1:string = "Sadasivan. P";
   convenor2:string = "Sisubalan";
+  kshethrathantri:string = "Deepu potti";
+  Rakshathikari:string = "Adharsh M.J";
+  kshethrashanthi:string = "Santha kumar";
 
   totalLength! : number;
   members :string[] = [
