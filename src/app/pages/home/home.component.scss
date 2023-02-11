@@ -2,23 +2,31 @@
   background-image: url(/assets/image/temp\ \(1\).jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 500px;
+  min-height: 440px;
+  
 }
 
 
 img{
   height: 100px;
   width: 100px;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: 50px;
 }
+
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
   .container-fulid {
       background-image: url(/assets/image/mobile\ bg.jpg);
       background-repeat: no-repeat;
       background-size: cover;
-      min-height: 500px
+      min-height: 500px;
+      
       
       
   }
@@ -30,7 +38,14 @@ img{
       margin-right: 60px;
       
   }
-
-  
-
 }
+
+
+
+
+
+
+
+
+
+

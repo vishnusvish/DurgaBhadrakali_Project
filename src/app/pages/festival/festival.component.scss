@@ -18,6 +18,10 @@ button{
     width: 110px;
   }
 
+  h6{
+    font-size: medium;
+  }
+
 
 
 
@@ -27,7 +31,7 @@ button{
 
 @media screen and (max-width: 768px) {
     .card {
-       margin-right: 80px;
+       margin-right: 40px;
         position: relative;
         display: flex;
         flex-direction: column;
