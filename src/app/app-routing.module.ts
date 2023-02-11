@@ -17,6 +17,9 @@ const routes: Routes = [
     path:'menu', component:MenuComponent
   },
   {
+    path:'pongala', component:PongalaComponent
+  },
+  {
     path:'about', component:AboutComponent
   },
   {

@@ -1,8 +1,16 @@
 .container-fulid {
+<<<<<<< HEAD
     background-image: url(/assets/image/temp\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 500px;
+=======
+  background-image: url(/assets/image/temp\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 440px;
+  
+>>>>>>> a95d2ff53cf8766b60c709f5dd4d02b94b0cee33
 }
 
 @media screen and (max-width: 576px) {
@@ -13,9 +21,54 @@
         min-height: 500px
     }
 
+<<<<<<< HEAD
     h3 {
         text-align: center;
         color: yellow;
         margin: auto;
     }
 }
+=======
+img{
+  height: 100px;
+  width: 100px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  .container-fulid {
+      background-image: url(/assets/image/mobile\ bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 500px;
+      
+      
+      
+  }
+
+  img{
+      height: 100px;
+      width: 100px;
+      margin-top: 30px;
+      margin-right: 60px;
+      
+  }
+}
+
+
+
+
+
+
+
+
+
+
+>>>>>>> a95d2ff53cf8766b60c709f5dd4d02b94b0cee33

@@ -13,6 +13,14 @@ img {
 li {
     text-align: justify;
 }
+button{
+    border-radius: 30px;
+    width: 110px;
+  }
+
+  h6{
+    font-size: medium;
+  }
 
 button {
     border-radius: 30px;
@@ -21,7 +29,11 @@ button {
 
 @media screen and (max-width: 768px) {
     .card {
+<<<<<<< HEAD
         margin-right: 80px;
+=======
+       margin-right: 40px;
+>>>>>>> a95d2ff53cf8766b60c709f5dd4d02b94b0cee33
         position: relative;
         display: flex;
         flex-direction: column;

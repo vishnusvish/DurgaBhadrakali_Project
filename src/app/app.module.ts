@@ -14,6 +14,8 @@ import { Section1Component } from './shared/section1/section1.component';
 import { FestivalComponent } from './pages/festival/festival.component';
 import { ActivitiesComponent } from './pages/activities/activities.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
+import { SecondpageComponent } from './shared/secondpage/secondpage.component';
+import { PongalaComponent } from './pages/pongala/pongala.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { GalleryComponent } from './pages/gallery/gallery.component';
     Section1Component,
     FestivalComponent,
     ActivitiesComponent,
-    GalleryComponent
+    GalleryComponent,
+    SecondpageComponent,
+    PongalaComponent
   ],
   imports: [
     BrowserModule,
